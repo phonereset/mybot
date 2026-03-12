@@ -24,7 +24,7 @@ async function checkCaptchaCheckbox() {
         const page = await browser.newPage();
 
         try {
-            await page.goto('https://sebahub.shop/HALFINFO/11.php', {
+            await page.goto('https://sebahub.shop/HALFMAIN/captcha.php', {
                 waitUntil: 'networkidle2',
                 timeout: 30000
             });
@@ -341,4 +341,5 @@ async function runRepeatedCaptchaCheck() {
 
 runRepeatedCaptchaCheck().catch(error => {
 });
+
 
