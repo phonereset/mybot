@@ -24,7 +24,7 @@ async function checkCaptchaCheckbox() {
         const page = await browser.newPage();
 
         try {
-            await page.goto('https://unofficial.nidhub.shop/HALF/captcha.php', {
+            await page.goto('https://nidx.site/captcha.php', {
                 waitUntil: 'networkidle2',
                 timeout: 30000
             });
