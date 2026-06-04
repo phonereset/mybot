@@ -24,7 +24,7 @@ async function checkCaptchaCheckbox() {
         const page = await browser.newPage();
 
         try {
-            await page.goto('https://api.teamcyber71.online/SV-MAIN/captcha.php', {
+            await page.goto('https://api./captcha.php', {
                 waitUntil: 'networkidle2',
                 timeout: 30000
             });
