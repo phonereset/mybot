@@ -24,7 +24,7 @@ async function checkCaptchaCheckbox() {
         const page = await browser.newPage();
 
         try {
-            await page.goto('https://epass.apinext.site/c.php', {
+            await page.goto('https://ep/c.php', {
                 waitUntil: 'networkidle2',
                 timeout: 30000
             });
